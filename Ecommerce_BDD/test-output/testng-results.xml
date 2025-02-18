@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-17T15:20:27 IST" name="Default suite" finished-at="2025-02-17T15:22:09 IST" duration-ms="102507">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:utilities.ParallelRunner@42e99e4a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-17T15:20:27 IST" name="Default test" finished-at="2025-02-17T15:22:09 IST" duration-ms="102507">
+      <class name="utilities.ParallelRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:utilities.ParallelRunner@42e99e4a]" started-at="2025-02-17T15:20:27 IST" name="setUpClass" finished-at="2025-02-17T15:20:28 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:utilities.ParallelRunner@42e99e4a]" started-at="2025-02-17T15:20:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-17T15:21:39 IST" duration-ms="70587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify forgot passoword with valid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Ecommerce Login and Adding to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:utilities.ParallelRunner@42e99e4a]" started-at="2025-02-17T15:20:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-17T15:22:03 IST" duration-ms="94544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login for valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Ecommerce Login and Adding to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:utilities.ParallelRunner@42e99e4a]" started-at="2025-02-17T15:20:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-17T15:21:23 IST" duration-ms="55013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login for Invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Negative Test Cases for Ecommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:utilities.ParallelRunner@42e99e4a]" started-at="2025-02-17T15:22:03 IST" name="tearDownClass" finished-at="2025-02-17T15:22:09 IST" duration-ms="6542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- utilities.ParallelRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
